@@ -9,8 +9,8 @@ Original file is located at
 
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
-from sklearn.linear_model import LinearRegression
+import matplotlib.pyplot as plt from sklearn.linear_model 
+import LinearRegression
 import numpy as np
 
 import streamlit as st
