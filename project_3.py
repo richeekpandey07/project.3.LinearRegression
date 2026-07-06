@@ -37,7 +37,29 @@ based on historical data.
 # Load Dataset
 # --------------------------------------------------
 df = pd.read_csv("canada_per_capita_income.csv")
+st.markdown("""
+<div style="
+padding:35px;
+background:linear-gradient(135deg,#2563EB,#7C3AED);
+border-radius:18px;
+text-align:center;
+box-shadow:0px 8px 20px rgba(0,0,0,0.4);">
 
+<h1 style="
+color:white;
+font-size:52px;
+font-weight:800;">
+📈 Canada Per Capita Income Predictor
+</h1>
+
+<p style="
+color:#E5E7EB;
+font-size:20px;">
+Predict Future Income using <b>Machine Learning</b> 🤖
+</p>
+
+</div>
+""", unsafe_allow_html=True)
 # Display Dataset
 st.subheader("📊 Dataset")
 st.dataframe(df, use_container_width=True)
