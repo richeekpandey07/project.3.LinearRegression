@@ -14,29 +14,15 @@ from sklearn.linear_model import LinearRegression
 import numpy as np
 
 # --------------------------------------------------
-# Page Configuration
-# --------------------------------------------------
-st.set_page_config(
-    page_title="Canada Per Capita Income Prediction",
-    page_icon="📈",
-    layout="wide"
-)
+# # Page Configuration
+# # --------------------------------------------------
+# st.set_page_config(
+#     page_title="Canada Per Capita Income Prediction",
+#     page_icon="📈",
+#     layout="wide"
+# )
 
-# --------------------------------------------------
-# Title
-# --------------------------------------------------
-st.title("📈 Canada Per Capita Income Prediction")
-st.markdown(
-    """
-This app uses **Linear Regression** to predict the **Per Capita Income (US$)** of Canada
-based on historical data.
-"""
-)
 
-# --------------------------------------------------
-# Load Dataset
-# --------------------------------------------------
-df = pd.read_csv("canada_per_capita_income.csv")
 st.markdown("""
 <div style="
 padding:35px;
