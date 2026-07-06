@@ -16,13 +16,13 @@ st.set_page_config(
 # --------------------------------------------------
 # Title
 # --------------------------------------------------
-st.title("📈 Canada Per Capita Income Prediction")
-st.markdown(
-    """
-This app uses **Linear Regression** to predict the **Per Capita Income (US$)** of Canada
-based on historical data.
-"""
-)
+# st.title("📈 Canada Per Capita Income Prediction")
+# st.markdown(
+#     """
+# This app uses **Linear Regression** to predict the **Per Capita Income (US$)** of Canada
+# based on historical data.
+# """
+# )
 st.markdown("""
 <div style="
 padding:35px;
