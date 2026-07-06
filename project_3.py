@@ -130,13 +130,30 @@ st.dataframe(future_df, use_container_width=True)
 # --------------------------------------------------
 # Footer
 # --------------------------------------------------
+
 st.markdown("---")
+
 st.markdown(
 """
-**Developed by:** Richeek Pandey
+<div style="padding:20px;border-radius:12px;background-color:#0E1117;border:1px solid #444;text-align:center;">
 
-🔗 LinkedIn: https://www.linkedin.com/in/your-linkedin
+<h2>👨‍💻 Richeek Pandey</h2>
 
-💻 GitHub: https://github.com/richeekpandey07
-"""
+<h4>📊 Data Science | Machine Learning | Python Developer</h4>
+
+<p>
+This application was built using <b>Python</b>, <b>Scikit-learn</b>,
+<b>Pandas</b>, <b>Matplotlib</b> and <b>Streamlit</b>.
+</p>
+
+<p>
+🔗 <a href="https://www.linkedin.com/in/richeek-pandey-9954783a9" target="_blank">LinkedIn</a> |
+💻 <a href="https://github.com/richeekpandey07" target="_blank">GitHub</a>
+</p>
+
+<p>⭐ Thanks for exploring my project!</p>
+
+</div>
+""",
+unsafe_allow_html=True
 )
