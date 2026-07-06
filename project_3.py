@@ -33,14 +33,14 @@ import numpy as np
 # """
 # )
 
-# --------------------------------------------------
-# Load Dataset
-# --------------------------------------------------
-df = pd.read_csv("canada_per_capita_income.csv")
+# # --------------------------------------------------
+# # Load Dataset
+# # --------------------------------------------------
+# df = pd.read_csv("canada_per_capita_income.csv")
 
-# Display Dataset
-st.subheader("📊 Dataset")
-st.dataframe(df, use_container_width=True)
+# # Display Dataset
+# st.subheader("📊 Dataset")
+# st.dataframe(df, use_container_width=True)
 
 # --------------------------------------------------
 
