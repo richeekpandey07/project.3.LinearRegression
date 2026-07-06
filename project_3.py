@@ -13,15 +13,24 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 import numpy as np
 
+import streamlit as st
+import pandas as pd
+import matplotlib.pyplot as plt from sklearn.linear_model 
+import LinearRegression
+import numpy as np
+# -------------------------------------------------- #Page Configuration # --------------------------------------------------
+st.set_page_config( page_title="Canada Per Capita Income Prediction",
+                   page_icon="📈",
+                   layout="wide" )
+# -------------------------------------------------- # Title # --------------------------------------------------
+st.title("📈 Canada Per Capita Income Prediction") 
+st.markdown( """ This app uses **Linear Regression** to predict the **Per Capita Income (US$)** of Canada based on historical data. """ )
+# -------------------------------------------------- # Load Dataset # --------------------------------------------------
+df = pd.read_csv("canada_per_capita_income.csv") 
+# Display Dataset 
+st.subheader("📊 Dataset")
+st.dataframe(df, use_container_width=True)
 # --------------------------------------------------
-# # Page Configuration
-# # --------------------------------------------------
-# st.set_page_config(
-#     page_title="Canada Per Capita Income Prediction",
-#     page_icon="📈",
-#     layout="wide"
-# )
-
 
 st.markdown("""
 <div style="
