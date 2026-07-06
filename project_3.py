@@ -131,29 +131,51 @@ st.dataframe(future_df, use_container_width=True)
 # Footer
 # --------------------------------------------------
 
+
 st.markdown("---")
 
-st.markdown(
-"""
-<div style="padding:20px;border-radius:12px;background-color:#0E1117;border:1px solid #444;text-align:center;">
+st.markdown("""
+<div style="
+background: linear-gradient(135deg, #1E293B, #0F172A);
+padding:25px;
+border-radius:15px;
+border:2px solid #38BDF8;
+text-align:center;
+box-shadow:0px 4px 15px rgba(0,0,0,0.3);
+">
 
-<h2>👨‍💻 Richeek Pandey</h2>
+<h2 style="color:#38BDF8;">👨‍💻 Richeek Pandey</h2>
 
-<h4>📊 Data Science | Machine Learning | Python Developer</h4>
+<h4 style="color:#F8FAFC;">
+📊 Aspiring Data Scientist | Machine Learning Enthusiast
+</h4>
 
-<p>
-This application was built using <b>Python</b>, <b>Scikit-learn</b>,
-<b>Pandas</b>, <b>Matplotlib</b> and <b>Streamlit</b>.
+<p style="color:#CBD5E1; font-size:16px;">
+This application was built using
+<b style="color:#FACC15;">Python</b>,
+<b style="color:#22C55E;">Scikit-learn</b>,
+<b style="color:#F97316;">Pandas</b>,
+<b style="color:#A855F7;">Matplotlib</b> &
+<b style="color:#EF4444;">Streamlit</b>.
 </p>
 
-<p>
-🔗 <a href="https://www.linkedin.com/in/richeek-pandey-9954783a9" target="_blank">LinkedIn</a> |
-💻 <a href="https://github.com/richeekpandey07" target="_blank">GitHub</a>
+<p style="font-size:18px;">
+<a href="https://www.linkedin.com/in/richeek-pandey-9954783a9" target="_blank"
+style="text-decoration:none;color:#38BDF8;">
+💼 LinkedIn
+</a>
+
+&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+
+<a href="https://github.com/richeekpandey07" target="_blank"
+style="text-decoration:none;color:#22C55E;">
+💻 GitHub
+</a>
 </p>
 
-<p>⭐ Thanks for exploring my project!</p>
+<p style="color:#FACC15; font-size:17px;">
+⭐ Thank you for exploring my project!
+</p>
 
 </div>
-""",
-unsafe_allow_html=True
-)
+""", unsafe_allow_html=True)
